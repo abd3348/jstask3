@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <select id="font1" onchange="changeFont()">
+        <option value="Fantasy">Fantasy</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+    <select id="size1" onchange="changeSize()">
+        <option value="10px">10px</option>
+        <option value="15px">15px</option>
+        <option value="20px">20px</option>
+        <option value="40px">40px</option>
+        <option value="70px">70px</option>
+    </select>
+
+    <input type="checkbox" id="italic" onchange="changeStyle()">
+    <label for="italic">italic</label>
+
+    <input type="checkbox" id="bold" onchange="changeStyle()">
+    <label for="bold">bold</label>
+
+    <input type="checkbox" id="underline" onchange="changeStyle()">
+    <label for="underline">underline</label>
+
+    <p id="title" style="border: 2px solid black; width: fit-content; padding: 30px;">abdallah ahmad mdalal. SE</p>
+    <script src="js.js"></script>
+</body>
+
+</html>
